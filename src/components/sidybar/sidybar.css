@@ -4,11 +4,8 @@
     border: var(--border);
     background: #363740;
 }
-::-webkit-scrollbar {
-    width: 10px;
-}
 .sadybar-title{
-    margin: 36px;
+    margin: 46px auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,18 +31,20 @@
     background: #363740;
     color: rgba(164, 166, 179, 1);
     ;
+    display: flex;
 }
- .icon-color:hover{
-    fill: #fff;
+
+.sadybar-btn:hover .icon-color {
+    fill: #ffff;
     box-shadow: 5px 5px 5px #fff;
 }
+
 .sadybar-btn:hover{
     background: #9FA2B4;
     color: rgba(221, 226, 255, 1);
 }
 .icon{
-    padding: 0px 1em;
-    right: 1em;
+    padding: 0px 1em 0px .5em;
 }
 .active{
     background: #000;

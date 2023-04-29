@@ -16,7 +16,7 @@ export default function Sidybar({button}) {
 Dashboard Kit
 </h3>
       {
-        button.map(item => <span key={item.id} className='sadybar-btn__control'><p className='icon'>{item.icon}</p><button className='sadybar-btn' onClick={() => alert('Qandaydir Funktion')}>{item.name}</button></span> )
+        button.map(item => <span key={item.id} className='sadybar-btn__control'><button className='sadybar-btn' onClick={() => alert('Qandaydir Funktion')}><p className='icon'>{item.icon}</p>{item.name}</button></span> )
       }
     </div>
   )
