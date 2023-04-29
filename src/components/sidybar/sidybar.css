@@ -6,7 +6,7 @@
 }
 ::-webkit-scrollbar {
     width: 10px;
-  }
+}
 .sadybar-title{
     margin: 36px;
     display: flex;
@@ -22,6 +22,8 @@
 .sadybar-btn__control{
     display: block;
     width: 100%;
+    display: flex;
+    align-items: center;
 }
 .sadybar-btn{
     width: 100%;
@@ -33,10 +35,18 @@
     color: rgba(164, 166, 179, 1);
     ;
 }
+ .icon-color:hover{
+    fill: #fff;
+    box-shadow: 5px 5px 5px #fff;
+}
 .sadybar-btn:hover{
     background: #9FA2B4;
     color: rgba(221, 226, 255, 1);
 }
 .icon{
     padding: 0px 1em;
+    right: 1em;
+}
+.active{
+    background: #000;
 }
