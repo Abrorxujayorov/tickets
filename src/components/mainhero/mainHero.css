@@ -1,0 +1,27 @@
+.mainHero{
+    width: 100%;
+    height: 10%;
+    border: var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mainHero-title{
+    margin-left: 2em;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.4px;    
+    color: #252733;
+}
+.mainHero-icon{
+    margin-right: 2em;
+    display: flex;
+    gap: 2.5em;
+    font-size: 14px;
+    line-height: 20px;    
+    letter-spacing: 0.2px;    
+    color: #4B506D;
+}
+.mainHero-icon i {
+    margin-right: .8em;
+}
