@@ -13,6 +13,7 @@
     justify-content: space-between;
 }
 .users_head-list tr {
+    padding: 2em;
     font-size: 14px;
     line-height: 18px;    
     letter-spacing: 0.2px;    
