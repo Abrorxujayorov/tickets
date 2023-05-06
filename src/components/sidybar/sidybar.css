@@ -32,6 +32,7 @@
     color: rgba(164, 166, 179, 1);
     ;
     display: flex;
+    text-decoration: none;
 }
 
 .sadybar-btn:hover .icon-color {
@@ -47,5 +48,6 @@
     padding: 0px 1em 0px .5em;
 }
 .active{
-    background: #000;
+    background: #0a0a0a;
+    color: rgba(221, 226, 255, 1);
 }

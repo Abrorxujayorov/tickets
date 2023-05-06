@@ -1,5 +1,6 @@
 import React from 'react'
 import './sidybar.css'
+import { Link, NavLink } from 'react-router-dom'
 export default function Sidybar({button}) {
   return (
     <div className='sidybar'>
@@ -16,7 +17,7 @@ export default function Sidybar({button}) {
 Dashboard Kit
 </h3>
       {
-        button.map(item => <span key={item.id} className='sadybar-btn__control'><button className='sadybar-btn' onClick={() => alert('Qandaydir Funktion')}><p className='icon'>{item.icon}</p>{item.name}</button></span> )
+        button.map(item => <span key={item.id} className='sadybar-btn__control'><NavLink to={item.peth} className='sadybar-btn'><p className='icon'>{item.icon}</p>{item.name}</NavLink></span> )
       }
     </div>
   )

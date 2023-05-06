@@ -1,4 +1,5 @@
 import React from 'react'
+import { Route, Routes } from 'react-router-dom'
 import './main.css'
 import MainHero from '../mainhero/MainHero'
 import Users from '../Users/Users'
@@ -8,7 +9,11 @@ export default function Main() {
     <main className='main'>
       <MainHero/>
       <Users/>
-      <MainBar/>
+      <Routes>
+        <Route path='/tickets' element={<MainBar/>}/>
+        
+      </Routes>
+
     </main>
   )
 }
