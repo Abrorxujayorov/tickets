@@ -1,0 +1,36 @@
+.main-bar-control{
+    height: 775px;
+
+}
+.MainBar{
+    width: 98%;
+    border: var(--border);
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+    height: 92px;
+    align-items: center;
+}
+.mainbar-item{
+    width: 350px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;    
+    color: #252733;
+    font-family: 'Muli';
+    padding-left: 2em;
+}
+.mainbar-ii{
+    padding: .2em 1em;
+    border-radius: 15px;
+}
+.High{
+    background: #F12B2C;
+}
+.low {
+    background: #FEC400;
+}
+.Normal{
+    background: #29CC97;
+}

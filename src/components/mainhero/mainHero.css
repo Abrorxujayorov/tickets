@@ -5,13 +5,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 1em;
 }
 .mainHero-title{
     margin-left: 2em;
     font-size: 19px;
     line-height: 24px;
     letter-spacing: 0.4px;    
-    color: #252733;
+    color: #252733;    
 }
 .mainHero-icon{
     margin-right: 2em;
